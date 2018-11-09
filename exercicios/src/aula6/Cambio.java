@@ -10,5 +10,10 @@ package aula6;
  * @author nelson
  */
 public class Cambio {
+     public double converter_para_dolar(double valor)
+    {
+        double novo_valor=valor * 0.25;
+        return novo_valor;
+    }
     
 }

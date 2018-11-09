@@ -11,17 +11,15 @@ package aula6;
  */
 public class Conta {
     float saldo=200;
-    
-    public void sacar(float valor){
-        saldo-=valor;
+   
+    public void sacar(float valor)
+    {saldo-=valor;
     }
-    
-    public void depositar(float valor){
-        saldo += valor;
+    public void depositar(float valor)
+    {saldo+=valor;
+  
     }
-    
-    public float consultar(){
-        return saldo;
+     public float consultar_saldo()
+    {return saldo;
     }
-    
 }
