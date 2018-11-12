@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula7APIeCalculadora;
+package aula7;
 
 /**
  *
@@ -18,23 +18,23 @@ public class Calculadora {
         result = 0;
     }
     
-    public double soma(){
+    public void soma(double num1, double num2){
         result = num1+num2;
     }
     
-    public double multiplica(){
-        result = num1*num2;
+    public void multiplica(double num1, double num2){
+        result = (num1 * num2);
     }
     
-    public double divide(){
+    public void divide(double num1, double num2){
         result = num1/num2;
     }
     
-    public double subtrai(){
+    public void subtrai(double num1, double num2){
         result = num1-num2;
     }
     
-    public double getResult(){
+    public double getResultado(){
         return result;
     }
 }
