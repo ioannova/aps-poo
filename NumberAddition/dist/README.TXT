@@ -2,11 +2,11 @@ Calculadora com funcional feita em swing
 
 Funcionalidade:
 
-- 1: Insere um número no primeiro campo
-- 2: Insere outro número no segundo campo
-- 3: Pressiona o "botão somar" para calcular soma
-- 4: Pressiona "botão limpar" para limpar campos
-- 5: Pressiona "sair" para finalizar aplicação
+1: Insere um número no primeiro campo
+2: Insere outro número no segundo campo
+3: Pressiona o "botão somar" para calcular soma
+4: Pressiona "botão limpar" para limpar campos
+5: Pressiona "sair" para finalizar aplicação
 
 
 
